@@ -37,7 +37,7 @@ function App() {
       <div style={{marginTop:"5vw"}}>
         <h1>Question No 02(on state)</h1>
         
-      <button onClick={handleClick}>
+      <button onClick={handleClick} disabled ={(index==11?true:false)}>
         Next
       </button>
       
@@ -56,7 +56,7 @@ function App() {
         {sculpture.description}
       </p>
       
-      <button onClick={handleBack}>
+      <button onClick={handleBack} disabled={(index ==0)? true:false}>
         Back
       </button>
       
