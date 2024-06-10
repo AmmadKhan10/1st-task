@@ -3,6 +3,8 @@ import './App.css'
 import { useState } from 'react'
 import { sculptureList } from './Sculpturelist';
 import Inputsfield from './Question3Inputsfield';
+import UpdateObjectusingSpread from './UpdateObjectusingSpread';
+import UpdateObjectusingimmer from './UpdateObjectusingimmer';
 
 function App() {
 //  -------------------Question no 2 js start here-----------------------
@@ -64,6 +66,15 @@ function App() {
       <div style={{marginTop:"5vw"}}>
       <h1>Question No 03(on state)</h1>
       <Inputsfield/>
+      </div>
+
+      <div>
+        <h1>Updating Objects using spread method</h1>
+        <UpdateObjectusingSpread/>
+      </div>
+      <div>
+        <h1>Updating Objects using use-immer method</h1>
+        <UpdateObjectusingimmer/>
       </div>
     </>
 
