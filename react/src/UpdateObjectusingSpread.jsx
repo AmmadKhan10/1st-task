@@ -71,7 +71,7 @@ function UpdateObjectusingSpread(){
       <p>
         {person.firstName}{' '}
         {person.lastName}{' '}
-        {person.fatherName}{''}
+        {person.fatherName}{' '}
         ({person.email})
       </p>
         </>

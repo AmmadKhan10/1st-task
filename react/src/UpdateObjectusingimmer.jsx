@@ -6,7 +6,6 @@ function UpdateObjectusingimmer(){
         artwork: {
           title: 'Web Developer',
           city: 'Oghi',
-          image: 'https://i.imgur.com/Sd1AgUOm.jpg',
         }
       });
     
